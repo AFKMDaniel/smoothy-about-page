@@ -1,0 +1,255 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #9A9A9A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+/* Styles for header */
+
+.wrapper {
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+header nav ul {
+    display: flex;
+    color: #433840;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a.active {
+    color: #FEA3AC;
+}
+
+header nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #FEA3AC;
+}
+
+/* Styles for page heading */
+
+.page-heading {
+    min-height: 400px;
+    margin:0 50px;
+    background-image: url(img/top.svg), url(img/bottom.svg), url(img/about-header.jpg);
+    background-repeat: no-repeat;
+    background-position: top, bottom, center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-heading h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.page-heading p {
+    font-family: 'Waiting for the Sunrise';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+/* Style for main content */
+
+main {
+    margin: 70px 0 58px 0;
+}
+
+main .wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 0 25px;
+    height: 520px;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main h3 {
+    font-size: 30px;
+    line-height: 38px;
+    color: #433840;
+    margin-bottom: 20px;
+}
+
+main img {
+    margin: 60px 0 10px 0;
+}
+
+/* Style for stats */
+
+.stats {
+    min-height: 620px;
+    background-color: #FEA3AC;
+    background-image: url(img/top.svg), url(img/bottom.svg);
+    background-repeat: no-repeat;
+    background-position: top, bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 59px 50px;
+}
+
+.stats ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stats .count {
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 66px;
+    color: #DFEEB6;
+    text-align: center;
+}
+
+.stats p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/* Style for team block */
+
+.dream-team {
+    margin-bottom: 175px;
+}
+
+.dream-team .header {
+    text-align: center;
+    margin: 0 auto 85px auto;
+}
+
+.dream-team .header h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    color: #433840;
+}
+
+.dream-team .header h3 {
+    font-family: 'Waiting for the Sunrise';
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+    color: #F7A1A8;
+}
+
+.dream-team .members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 23px;
+}
+
+.dream-team img {
+    border-radius: 50%;
+}
+
+.upper-member {
+    margin-bottom: 65px;
+}
+
+.upper-member img {
+    margin-right: 7px;
+}
+
+.bottom-member img {
+    margin-left: 7px;
+}
+
+.bottom-member {
+    text-align: right;
+    flex-direction: row-reverse;
+}
+
+.members h4{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.members h5 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    color: #433840;
+    margin-bottom: 14px;
+}
+
+.upper-member,.bottom-member {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dream-team .background-block {
+    height: 380px;
+    width: 393px;
+    position: absolute;
+    top: -25px;
+    z-index: -1;
+}
+
+.upper-member .background-block {
+    right: 0;
+}
+
+.bottom-member .background-block {
+    left: 0;
+}
+
+.blue {
+    background-color: #C9E3F4;
+}
+
+.green {
+    background: #DFEEB6;
+}
+
+
+
+
+
+
